@@ -1,0 +1,21 @@
+[2020-11-23T10:47:17.646220] Entering job preparation.
+[2020-11-23T10:47:18.225744] Starting job preparation.
+[2020-11-23T10:47:18.225779] Extracting the control code.
+[2020-11-23T10:47:18.262493] fetching and extracting the control code on master node.
+[2020-11-23T10:47:18.262533] Starting extract_project.
+[2020-11-23T10:47:18.262585] Starting to extract zip file.
+[2020-11-23T10:47:18.917057] Finished extracting zip file.
+[2020-11-23T10:47:19.042842] Using urllib.request Python 3.0 or later
+[2020-11-23T10:47:19.042925] Start fetching snapshots.
+[2020-11-23T10:47:19.042998] Start fetching snapshot.
+[2020-11-23T10:47:19.043023] Retrieving project from snapshot: cab4af2f-df5b-4461-970a-5e7eee5ed09c
+Starting the daemon thread to refresh tokens in background for process with pid = 50
+[2020-11-23T10:47:19.744070] Finished fetching snapshot.
+[2020-11-23T10:47:19.744106] Finished fetching snapshots.
+[2020-11-23T10:47:19.744112] Finished extract_project.
+[2020-11-23T10:47:19.754513] Finished fetching and extracting the control code.
+[2020-11-23T10:47:19.759146] Start run_history_prep.
+[2020-11-23T10:47:19.759397] downloadDataStore - Download from datastores if requested.
+[2020-11-23T10:47:19.806089] Entering context manager injector.
+[2020-11-23T10:47:20.106415] downloadDataStore completed
+[2020-11-23T10:47:20.172088] Job preparation is complete.

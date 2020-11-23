@@ -1,0 +1,25 @@
+2020/11/23 10:47:21 Attempt 1 of http call to http://10.0.0.8:16384/sendlogstoartifacts/info
+2020/11/23 10:47:21 Attempt 1 of http call to http://10.0.0.8:16384/sendlogstoartifacts/status
+[2020-11-23T10:47:22.597975] Entering context manager injector.
+[context_manager_injector.py] Command line Options: Namespace(inject=['ProjectPythonPath:context_managers.ProjectPythonPath', 'RunHistory:context_managers.RunHistory', 'TrackUserError:context_managers.TrackUserError'], invocation=['train.py', '--C', '100', '--max_iter', '150'])
+Script type = None
+Starting the daemon thread to refresh tokens in background for process with pid = 104
+Entering Run History Context Manager.
+Current directory:  /mnt/batch/tasks/shared/LS_root/jobs/quick-starts-ws-127521/azureml/hd_26f1d09a-15af-4600-a0d8-404bf9c7b5b3_16/mounts/workspaceblobstore/azureml/HD_26f1d09a-15af-4600-a0d8-404bf9c7b5b3_16
+Preparing to call script [ train.py ] with arguments: ['--C', '100', '--max_iter', '150']
+After variable expansion, calling script [ train.py ] with arguments: ['--C', '100', '--max_iter', '150']
+
+/opt/miniconda/lib/python3.6/site-packages/azureml/dataprep/api/dataflow.py:722: UserWarning: Your pandas and pyarrow versions are incompatible. Please install pyarrow>=0.12.0 for improved performance of to_pandas_dataframe. You can ensure the correct version is installed by running: pip install pyarrow>=0.12.0 --upgrade
+  warnings.warn('Your pandas and pyarrow versions are incompatible. '
+/opt/miniconda/lib/python3.6/site-packages/sklearn/linear_model/logistic.py:433: FutureWarning: Default solver will be changed to 'lbfgs' in 0.22. Specify a solver to silence this warning.
+  FutureWarning)
+Starting the daemon thread to refresh tokens in background for process with pid = 104
+
+
+[2020-11-23T10:47:44.630124] The experiment completed successfully. Finalizing run...
+Cleaning up all outstanding Run operations, waiting 900.0 seconds
+2 items cleaning up...
+Cleanup took 5.907252311706543 seconds
+[2020-11-23T10:47:50.809417] Finished context manager injector.
+2020/11/23 10:47:52 Attempt 1 of http call to http://10.0.0.8:16384/sendlogstoartifacts/status
+2020/11/23 10:47:52 Process Exiting with Code:  0
