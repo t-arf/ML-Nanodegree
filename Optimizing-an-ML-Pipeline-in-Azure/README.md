@@ -51,12 +51,16 @@ Classification algorithm is Logistic Regression which is implemented with scikit
  
 
 Automated machine learning allows us to build ML models with high scale, efficiency, and productivity all while sustaining model quality. 
+The data is first uploaded as a tabular dataset so it can be used by automl compute.
+
+In AutoML config, we set the  experiment timeout in minutes to be 30, iterations to be 100, maximum concurrent iterations to 8 and
+number of cross-validations to be 5. Task is classification and primary metric is accuracy. Since 5 folds cross validations are being performed, so for each training we use 4/5 th of data and 1/5 th of data is used in each validation with a different holdout fold each time.
 
 
-It tries about 83 different models and comes up with top 2 contenders:
-1. Voting Ensemble with 91.736% accuracy
+AutoML tries different models leke MaxAbsScaler LightGBM, MinMaxScaler RandomForest, StandardScalerWrapper ExtremeRandomTrees etc 
+for 83 iterations and comes up with top 2 contenders:
+1. Voting Ensemble with 91.736% accuracy (this will be chosen)
 2. Stack Ensemble with 91.697% accuracy
-
 
 ## Pipeline comparison
 
