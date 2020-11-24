@@ -66,14 +66,14 @@ The best hyperparameters were:
   Inverse Regularization Strength:': 100.0,
  'Max iterations:': 150,
  'Accuracy': 0.91442097596504
-Since we used a random search parameter so the accuracy fluctuated in the [figure](images/img2.JPG) below.
+Since we used a random search parameter so the accuracy fluctuated in the ![figure](images/img2.JPG) below.
 
 ### AutoML Output:
 It ran for about 42 minutes, and the accuracy was slightly better than Hyperdrive's output since it tried many different
 algorithms.
 Accuracy was 91.736% which when compared with Hyperdrive shows an improvement of 0.319% overall at the cost of 27 more minutes,
 so this increase in accuracy is not as significant when compared to the amount of time consumed.
-The top models by accuracy are given [below](images/img3.JPG):
+The top models by accuracy are given ![below](images/img3.JPG):
 
 If we had to choose one method from the above two, the following use cases should be kept in mind:
 1. If one wants to obtain great results and time is not an issue, and little knowledge of programming one can use AutoML. Instead of 
@@ -90,5 +90,5 @@ consumption, one can use Hyperdrive.
  AutoML run gives a class imbalance alert. Imbalanced data can lead to a falsely perceived positive effect of
  a model's accuracy because the input data has bias towards one class.
  To rectify this, we can resampling to even the class imbalance first.
-## [Proof of cluster clean up](images/del.JPG)
+## ![Proof of cluster clean up](images/del.JPG)
 
