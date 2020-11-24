@@ -9,7 +9,7 @@ The image below shows the main processes involved in this ![project](images/img.
 
 ## Summary
 This dataset contains data from a Portuguese banking sector marketing campaign on phone calls, with input features-both 
-categorical and numerical- like age, job, marital, education, housing,loan, contact, month and campaign.
+categorical and numerical- like age, job, marital, education, housing,loan, contact, month and campaign etc.
  
 The output label 'y' represents whether the marketing campaign was successful or not. This is clearly a classification problem since we have to predict the output as belonging to one of the two classes. We have to compare the classification accuracy of this problem using both hyperdrive and AutoML methods and see which one will be used for real-life scenarios.
 
