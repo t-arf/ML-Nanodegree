@@ -19,6 +19,7 @@ The best performing model was a Voting Ensemble Model in AutoML with an an accur
 ## Scikit-learn Pipeline
 **Explain the pipeline architecture, including data, hyperparameter tuning, and classification algorithm.**
 
+
 The dataset is created from CSV file link as a TabularDataset using TabularDatasetFactory. It is then cleaned and divided into training 
 and test datasets using the train_test_split.
 
@@ -89,10 +90,14 @@ consumption, one can use Hyperdrive.
 
 ## Future work
 **What are some areas of improvement for future experiments? Why might these improvements help the model?**
+
+
  Here we used LogisticRegression classifier in hyperdrive, other models can perform even better.
  Deep Learning Models can also be used.
  AutoML run gives a class imbalance alert. Imbalanced data can lead to a falsely perceived positive effect of
  a model's accuracy because the input data has bias towards one class.
  To rectify this, we can resampling to even the class imbalance first.
+ 
+ 
 ## ![Proof of cluster clean up](images/del.JPG)
 
