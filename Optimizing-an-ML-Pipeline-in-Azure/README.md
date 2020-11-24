@@ -5,7 +5,7 @@
 This project is part of the Udacity Azure ML Nanodegree.
 In this project, I build and optimize an Azure ML pipeline using the Python SDK and a provided Scikit-learn model.
 This model is then compared to an Azure AutoML run.
-The image below shows the main processes involved in this [project](images/img.JPG).
+The image below shows the main processes involved in this ![project](images/img.JPG).
 
 ## Summary
 This dataset contains data from a Portuguese banking sector marketing campaign on phone calls, with input features-both 
